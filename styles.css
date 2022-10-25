@@ -1,27 +1,50 @@
 .center{margin-left: auto;
 margin-right: auto;
 display: block;
-width: 150px}
+max-width: 400px;
+max-height: auto;
+border-color:black}
 
 h1 {color: #60EA4A;
 background:#323232;
-height: auto}
+height: auto;
+font-family: "Bauhaus-93";}
 
-body {background-color: #D9D9D9}
+body {background-color: #D9D9D9;
+  margin: 0;
+  padding: 0;
+background-image: url("Thunder.png");
+  box-sizing: border-box; }
 
-main {margin-left: auto;
-margin-right: auto;
-display: block;
-min-width: 150px
+
+main {    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
 }
 
 .SelectionBar{background: #939393;
 color: black}
 
 h2  { background-color: #545454;
-color: #60EA4A}
+color: #60EA4A;
+  text-align: center;
+}
 
 .NavagationBar {margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
+
+body{ font-size: 16px;
+font-family: Arial, helvetica, sans-serif;
+line-height: 1.2}
+
+li{line-height: 1.2}
+
+a{color: #black;
+text-decoration: none}
+
+a:hover{font-size:25px;
+background-color:#545454;
+color: #60EA4A}
